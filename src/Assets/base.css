@@ -1,0 +1,27 @@
+.navbar{
+    background-color: black;
+  }
+.navbar .navbar-brand{
+    color:white;
+  }
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+  }
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+@media screen and (max-width: 768px) {
+    .each-slide > div{
+        height:200px;
+    }  
+}
+  
